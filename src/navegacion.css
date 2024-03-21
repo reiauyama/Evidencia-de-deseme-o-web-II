@@ -1,0 +1,98 @@
+/* Estilo para el cuerpo de la página */
+body{
+    top: 0px;
+    padding: 0px;
+    margin:0;
+}
+
+/* Estilo para la barra de navegación superior */
+.roseBar{
+    font-size: 20px;
+    background-color: rgba(233,19,106,255) ;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* Estilo para el texto promocional en la barra rosa */
+.d20{
+    color: rgb(255, 255, 255);
+    padding-right: 4%;
+}
+
+/* Estilo para el botón de compra en la barra rosa */
+.compra{
+    font-size: 11px;
+    background-color:rgba(254,232,0,255) ;
+    color:  rgba(233,19,106,255);
+}
+
+/* Estilo para la barra de navegación principal */
+.yellowBar{
+    list-style: none;
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(254,232,0,255)  ;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para los elementos de la barra principal */
+.yellowBar li{
+    float: left;
+    color: black;
+    text-align: center;
+    margin-right: 30px;
+}
+
+/* Estilo específico para el elemento de usuario */
+.yellowBar .user{
+    padding-right: 10px;
+    margin-left: auto;
+}
+
+/* Estilo para el campo de búsqueda */
+.Buscar{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width: 450px;
+    align-items: center;
+    padding-left: 15px;
+    box-shadow:  0 0 4px black;
+}
+
+/* Estilo para el ícono de búsqueda */
+.searchIcon{
+    position: relative;
+    left: auto;
+    padding-left:10px ;
+    padding-right: 2%;
+    margin-left: auto;
+    background-color: rgba(102,102,100,255);
+    color:rgb(255, 255, 255);
+    float: right;
+    font-size: 20px;
+    height: 100%;
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px;
+}
+
+/* Estilo para los enlaces dentro de la barra principal */
+.yellowBar li a{
+    color: black;
+}
+
+/* Estilo para el ícono de ubicación */
+.mapMarker{
+    font-size:20px ;
+    color: black;
+}

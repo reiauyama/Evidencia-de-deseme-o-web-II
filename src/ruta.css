@@ -1,0 +1,9 @@
+p{
+    color: gray;
+    display: flex;
+    margin: 30px;
+}
+
+.currentPage{
+    color: black;
+}

@@ -1,0 +1,198 @@
+/* Estilos para el contenedor principal de imágenes */
+.mainContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+/* Estilos para la exhibición de imágenes */
+.exhibicion{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+/* Estilos para las miniaturas de imágenes */
+.seleccion ul{
+    list-style: none; 
+}
+/*******/* Estilos para cada miniatura de imagen ********/
+.image1{
+    
+    background-repeat: no-repeat, repeat;
+    height: 82px;
+    width: 82px;
+    background-image: url(/src/assets/Image1.png);
+}
+.image2{
+    
+    background-repeat: no-repeat, repeat;
+    height: 82px;
+    width: 82px;
+    background-image: url(/src/assets/Image2.png);
+}
+.image3{
+    
+    background-repeat: no-repeat, repeat;
+    height: 82px;
+    width: 82px;
+    background-image: url(/src/assets/Image3.png);
+}
+.image4{
+    
+    background-repeat: no-repeat, repeat;
+    height: 82px;
+    width: 82px;
+    background-image: url(/src/assets/Image4.png);
+}
+/* Estilo para la imagen principal */
+.mainImage{
+    
+    background-repeat: no-repeat, repeat;
+    height: 495px;
+    width: 495px;
+    background-image: url(/src/assets/image5.PNG);
+    margin: auto;
+}
+/* Estilos para la lista de íconos de reacción */
+.iconsReaction ul{
+    list-style: none;
+}
+/* Estilo para el ícono de corazón */
+.iconRe{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: #6b6b6b;
+    box-shadow: 2px 5px 5px rgb(165, 165, 165);
+    background-color: rgba(247,247,247,255);
+}
+/* Estilo para el ícono de compartir */
+.iconShare{
+    margin-bottom: 300%;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: #6b6b6b;
+    box-shadow: 2px 5px 5px rgb(165, 165, 165);
+    background-color: rgba(247,247,247,255);
+}
+/* Estilo para el ícono de cámara */
+.iconCamera{
+    margin-top: 300%;
+}
+/* Estilos para la caja de detalles del producto */
+.box1{
+    line-height: 0.5;
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+}
+/* Estilos para el párrafo dentro de la caja de detalles */
+
+.box1 p{
+    margin: 0;
+    font-weight: bold;
+}
+/* Estilos para la información adicional del producto */
+
+.info{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #cdcbcb;
+    
+}
+/* Estilos para el vendedor */
+.vendido {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: #000;
+    height: 30px;
+    background-color: rgba(247,247,247,255);
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+    padding: 0; 
+}
+/* Estilos para el párrafo dentro de la información adicional del producto */
+.vendido p{
+    
+    color: #000;
+}
+/* Estilos para la caja dentro de la información adicional */
+.insideBox{
+    padding: 2%;
+}
+/* Estilos para la sección antes y después del precio */
+.befaft{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+/* Estilos para el descuento */
+.descuento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    background-color: #000;
+    border: 1px solid #cac7c7; 
+    border-radius: 4px;
+}
+/* Estilos para el precio antes del descuento */
+.priceBefore{
+    margin-left: 10px;
+}
+/* Estilos para el párrafo dentro de la caja interior */
+.insideBox p{
+    color: #000;
+    margin-bottom: 28px;
+    font-weight:bold;
+    margin-left: 0;
+}
+/* Estilos para el botón de otros vendedores */
+.btnVendedores{
+    width: 100%;
+    color: rgba(61,164,234,255);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(61,164,234,255);
+}
+/* Estilos para la información de envío */
+.infoEnvio{
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 2px;
+    background-color:rgba(247,247,247,255);
+    margin-bottom: 20px;
+}
+/* Estilos para los títulos dentro de la información de envío */
+.infoEnvio h5{
+    margin-left: 10px;
+}
+/* Estilos para los íconos de la información de envío */
+.iconTab{
+    font-size: 20px;
+    margin-right: 2%;
+    color: rgb(163, 163, 163);
+}
+/* Estilos para el botón de agregar al carrito */
+.shopingCar{
+    width: 100%;
+    height: 50px;
+    background-color:rgba(226,104,28,255) ;
+    margin-bottom: 20px;
+}
+/* Estilos para la garantía del producto */
+.warranty{
+    
+    margin: 10px;
+}
+/* Estilos para el párrafo dentro de la garantía */
+.warranty p{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
